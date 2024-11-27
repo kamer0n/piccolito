@@ -57,3 +57,10 @@ coverage/
 # Build directories
 build/
 out/
+
+*.jpeg
+*.jpg
+*.png
+
+
+
