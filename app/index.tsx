@@ -7,13 +7,13 @@ const HomePage = () => {
     <View style={styles.GameScreen}>
       <Pressable
         onPress={() =>
-          router.push({
+          router.replace({
             pathname: "quizScreen",
             // params: { id: 2 },
           })
         }
       >
-        <Text>it's a me</Text>
+        <Text>it's a meeee</Text>
       </Pressable>
     </View>
   );

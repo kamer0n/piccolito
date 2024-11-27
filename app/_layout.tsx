@@ -1,4 +1,5 @@
-import { Stack } from "expo-router";
+import { Stack, Router, router } from "expo-router";
+import { Pressable, Text, View } from "react-native";
 
 const RootLayout = () => {
   return (
@@ -10,13 +11,16 @@ const RootLayout = () => {
     //     }}
     //   />
     // </Stack>
+    // <Stack>
+    //   <Stack.Screen
+    //     name="index"
+    //     options={{
+    //       headerShown: false,
+    //     }}
+    //   />
+    // </Stack>
     <Stack>
-      <Stack.Screen
-        name="index"
-        options={{
-          headerShown: false,
-        }}
-      />
+      <Stack.Screen name="index"></Stack.Screen>
     </Stack>
   );
 };
